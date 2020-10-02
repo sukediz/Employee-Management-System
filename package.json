@@ -1,0 +1,30 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "description": "A CLI based application to view/update/delete employee data",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukediz/employee-management-system.git"
+  },
+  "author": "Sukey Ong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sukediz/employee-management-system/issues"
+  },
+  "homepage": "https://github.com/sukediz/employee-management-system#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "console.table": "^0.10.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "promise-mysql": "^4.1.3"
+  }
+}
