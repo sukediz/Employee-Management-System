@@ -17,7 +17,7 @@ This CLI application is a content management system that handles a company's dat
 ### Installation
 
 Clone the GitHub repository to your local drive. Run `npm install` to install dependencies. Make sure you have Node.js, MySQL workbench and MySQL server installed.
-In `[getConnection]`(lib/QueryData.js) of QueryData.js, update the username and password to reflect of those in your local MySQL Workbench. Install `schema.sql` found [here](db/schema.sql)
+In `getConnection` of QueryData.js, update the username and password to reflect of those in your local MySQL Workbench. Install `schema.sql` found [here](db/schema.sql).
 
 ### Usage
 
